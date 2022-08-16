@@ -350,6 +350,10 @@ body {
 }
 
 .item {
+	
+	&__img {
+	}
+
 	&__title {
 		font-weight: 700;
 		font-size: 30px;
@@ -362,5 +366,23 @@ body {
 		font-size: 20px;
 		line-height: 180%;
 		color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+.portfolio {
+
+	&__content {
+	}
+
+	&__box {
+	}
+
+	&__row {
+	}
+
+	&__footer {
+	}
+
+	&__item {
 	}
 }

@@ -375,12 +375,28 @@ body {
 	}
 
 	&__box {
+		max-width: 50%;
+		& p {
+			color: rgba(255, 255, 255, 0.5);
+		}
 	}
 
 	&__row {
+		display: flex;
+		margin: 0 -7.5px;
+		padding: 0 0 15px 0;
+		& img {
+			height: 250px;
+			width: 389px;
+			flex: 0 1 33.33%;
+			padding: 0 7.5px;
+		}
 	}
 
 	&__footer {
+		display: flex;
+		justify-content: space-between;
+		padding: 15px 0 0 0;
 	}
 
 	&__item {

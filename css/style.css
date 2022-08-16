@@ -323,4 +323,27 @@ body {
   font-size: 20px;
   line-height: 180%;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.portfolio__box {
+  max-width: 50%;
+}
+.portfolio__box p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.portfolio__row {
+  display: flex;
+  margin: 0 -7.5px;
+  padding: 0 0 15px 0;
+}
+.portfolio__row img {
+  height: 250px;
+  width: 389px;
+  flex: 0 1 33.33%;
+  padding: 0 7.5px;
+}
+.portfolio__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 0 0;
 }/*# sourceMappingURL=style.css.map */

@@ -178,8 +178,29 @@ body {
   align-items: center;
   padding: 5px 0;
 }
+@media (max-width: 767px) {
+  .header__row {
+    position: relative;
+  }
+}
+.header__burger {
+  display: none;
+}
+@media (max-width: 767px) {
+  .header__nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}
 .header__list {
   display: flex;
+}
+@media (max-width: 767px) {
+  .header__list {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .list__item a {

@@ -195,6 +195,18 @@ body {
 		display: none;
 		@media (max-width:767px) {
 			display: block;
+			.active {
+				position: fixed;
+				top: 30px;
+				left: 15px;
+				cursor: pointer;
+				background-image: url(../img/burger/esc.png);
+				background-size: cover;
+				padding: 5px;
+				height: 40px;
+				width: 40px;
+				z-index: 30;
+			}
 		}
 	}
 	&__menu {
@@ -209,17 +221,8 @@ body {
 			padding: 5px;
 			height: 40px;
 			width: 40px;
-			.active {
-				position: absolute;
-				top: 30px;
-				left: 15px;
-				display: block;
-				cursor: pointer;
-				background-image: url(../img/burger/esc.png);
-				padding: 5px;
-				height: 40px;
-				width: 40px;
-				z-index: 30;
+			&.active img {
+				display: none;
 			}
 		}
 	}

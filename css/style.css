@@ -191,6 +191,18 @@ body {
   .header__burger {
     display: block;
   }
+  .header__burger .active {
+    position: fixed;
+    top: 30px;
+    left: 15px;
+    cursor: pointer;
+    background-image: url(../img/burger/esc.png);
+    background-size: cover;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    z-index: 30;
+  }
 }
 @media (max-width: 767px) {
   .header__menu {
@@ -205,17 +217,8 @@ body {
     height: 40px;
     width: 40px;
   }
-  .header__menu .active {
-    position: absolute;
-    top: 30px;
-    left: 15px;
-    display: block;
-    cursor: pointer;
-    background-image: url(../img/burger/esc.png);
-    padding: 5px;
-    height: 40px;
-    width: 40px;
-    z-index: 30;
+  .header__menu.active img {
+    display: none;
   }
 }
 @media (max-width: 767px) {

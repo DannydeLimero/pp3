@@ -286,9 +286,11 @@ body {
   margin: 0 0 30px 0;
 }
 
+.services {
+  padding: 0 0 200px 0;
+}
 .services__content {
   text-align: center;
-  margin: 0 0 200px 0;
 }
 .services__title {
   font-weight: 700;
@@ -325,6 +327,9 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.portfolio {
+  padding: 0 0 200px 0;
+}
 .portfolio__box {
   max-width: 50%;
 }
@@ -395,4 +400,8 @@ body {
   width: 119px;
   background: rgba(255, 255, 255, 0.5);
   transform: rotate(90deg);
+}
+
+.footer {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

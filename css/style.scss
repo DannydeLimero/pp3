@@ -317,10 +317,9 @@ body {
 }
 
 .services {
-
+	padding: 0 0 200px 0;
 	&__content {
 		text-align: center;
-		margin: 0 0 200px 0;
 	}
 
 	&__title {
@@ -370,7 +369,7 @@ body {
 }
 
 .portfolio {
-
+	padding: 0 0 200px 0;
 	&__content {
 	}
 	&__box {
@@ -443,5 +442,23 @@ body {
 		width: 119px;
 		background: rgba(255, 255, 255, 0.5);
 		transform: rotate(90deg);
+	}
+}
+
+.footer {
+	text-align: center;
+	&__logo {
+	}
+
+	&__title {
+	}
+
+	&__subtitle {
+	}
+
+	&__social {
+	}
+
+	&__item {
 	}
 }

@@ -404,6 +404,17 @@ body {
   border-radius: 25px;
   padding: 30px;
 }
+@media (max-width: 767px) {
+  .portfolio__footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .portfolio__item:not(:last-child) {
+    padding: 0 0 15px 0;
+  }
+}
 .portfolio__item img {
   margin: 0 0 10px 0;
 }
@@ -418,12 +429,24 @@ body {
 .special::after {
   content: "";
   position: absolute;
-  top: 65px;
-  left: -85px;
+  top: 50%;
+  left: -20%;
   height: 1px;
-  width: 119px;
+  width: 30%;
   background: rgba(255, 255, 255, 0.5);
   transform: rotate(90deg);
+}
+@media (max-width: 767px) {
+  .special::after {
+    content: "";
+    position: absolute;
+    top: -7%;
+    left: 0%;
+    height: 1px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: none;
+  }
 }
 
 .footer__content {

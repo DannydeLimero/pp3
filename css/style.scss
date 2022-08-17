@@ -447,13 +447,28 @@ body {
 
 .footer {
 	text-align: center;
+	&__content {
+		
+	}
+
 	&__logo {
 	}
 
 	&__title {
-	}
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 75px;
+		letter-spacing: 0.3px;
+		color: #FFFFFF;
+			}
 
 	&__subtitle {
+		font-size: 20px;
+		line-height: 180%;
+		letter-spacing: 0.3px;
+		color: rgba(255, 255, 255, 0.5);
+		display: flex;
+		flex: 0 1 48%;
 	}
 
 	&__social {
